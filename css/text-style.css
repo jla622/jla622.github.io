@@ -20,3 +20,31 @@ body{
     background: var(--yellow);
     padding:0.016rem;
 }
+
+.logo{
+    display: block;
+    width:100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1 ;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a{
+    color: var(--off-white);
+    text-decoration: none;
+}
