@@ -18,6 +18,9 @@ h1,h2,h3{
     font-family: 'Lexend', sans-serif;
 }
 
+.hashtags p{
+    color:var(--my-blue);
+}
 
 /* FOOTER TEXT*/
 footer h3{
