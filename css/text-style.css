@@ -8,6 +8,14 @@
     --my-stroke:#7E4C52;
 }
 
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Lexend', sans-serif;
+}
+
 
 /* FOOTER TEXT*/
 footer h3{
