@@ -1,9 +1,9 @@
 :root{
     --off-white: #FDFDFC;
-    --yellow: #FFE9B1;
-    --orange: #FBC471;
+    --my-yellow: #FFE9B1;
+    --my-orange: #FBC471;
     --light-blue: #B9E3FC;
-    --blue: #749DF5;
+    --my-blue: #749DF5;
     --dark-blue: #355BBA;
 }
 
@@ -17,7 +17,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--yellow);
+    background: var(--my-yellow);
     padding:0.016rem;
 }
 
