@@ -3,12 +3,14 @@
     --my-yellow: #FFE9B1;
     --my-orange: #FBC471;
     --light-blue: #B9E3FC;
+    --light-blue-hover: #E7F5FE;
     --my-blue: #749DF5;
     --dark-blue: #355BBA;
     --my-stroke:#7E4C52;
 }
 
 *{
+    /* color: var(--my-stroke); */
     font-family: 'Montserrat', sans-serif;
 }
 
