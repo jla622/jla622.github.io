@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/text-style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -13,26 +14,62 @@
 </head>
 
 <body>
-    <nav>
-        <div class="my-name">
-            <a href="../jla622.github.io/index.html">Jina Lee</a>
+    <!-- NAVBAR -->
+    <nav class="container-fluid navbar navbar-expand-md navbar-light">
+
+        <div>
+            <a class="navbar-brand" href="#">JL</a>
         </div>
-        <ul>
-            <li>
-                <a href="/pages/about.html">About</a>
+
+        <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" data-target="#toggleMobileMenu"
+        aria="toggleMobileMenu"
+        aria-expanded="false"
+        aria-label="Toggle Navigation">
+
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class='nav-link' href="#">Home</a>
             </li>
-            <li>
-                <a href="/index.html/#projects">Projects</a>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">About</a>
             </li>
-            <li>
-                <a href="/pages/illustrations.html">Illustrations</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">My Work</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact Me</a>
             </li>
-            <li>
-                <a href="/pages/resume.html">Resume</a>
-            </li>
-        </ul>
+          </ul>
+        </div>
     </nav>
     <h1>this is about page</h1>
+
+    <section>
+        <h2>Heya!</h2>
+
+        <!-- text container -->
+        <div>
+            <p class="container container-sm text-justify">
+                I'm Jina, a student based in Vancouver, Canada. I like to share my love for design through colourful illustrations and collaboration. My expertise lies within programs like Figma, Adobe Illustrator, and Adobe Photoshop. When not working, you can find me at local cafes, art festivals, or petting the cutest cats!
+            </p>
+        </div>
+
+        <!-- image container -->
+        <div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Want to Learn More about Me?</h2>
+        <h3>Here's my resume!</h3>
+    </section>
 </body>
 
 </html>

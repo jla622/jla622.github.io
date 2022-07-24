@@ -15,7 +15,8 @@
 
 <body>
 
-    <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light">
+    <!-- NAVBAR -->
+    <nav class="container-fluid navbar navbar-expand-md navbar-light">
 
         <div>
             <a class="navbar-brand" href="#">JL</a>
@@ -32,7 +33,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav navbar-right">
             <li class="nav-item">
                 <a class='nav-link' href="#">Home</a>
             </li>
@@ -47,67 +48,73 @@
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
+    
+    <section class="jumbotron bg-transparent">
+        <div class="container container-fluid text-center">
+            <h1>Jina Lee</h1>
 
-    <section class="intro-page">
-        <!-- title of main web page -->
-        <h1>Jina Lee</h1>
-        <p>Product Design</p>
-        <p>Illustration</p>
-        <p>UI/UX Design</p>
+            <div class="d-flex justify-content-center row text-center">
+                <p class="col-md-3">Product Design</p>
+                <p class="col-md-3">Illustration</p>
+                <p class="col-md-3">UI/UX Design</p>
+            </div>
+        </div>
     </section>
 
-    <section class="my-projects" id="projects">
-        <section class="project-grid">
-            <div class="col-one">
-                <h3>City Mapper Feature Design</h3>
-                <p>basic description</p>
-                <a class="project-button">button</a>
-            </div>
-            <div class="col-two">
+    <section class="my-work d-flex justify-content-center row mb-5">
 
+        <!-- City Mapper Feature Design -->
+        <div class="col-md-5 p-2 card" id="work-1">
+            <figure class="figure">
+                <img src=".../400x300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+              </figure>
+            <h3>City Mapper Feature Design</h3>
+            <div class="hashtags d-flex justify-content-center row text-center">
+                <p class="p-2">#UI/UX</p>
+                <p class="p-2">#Prototyping</p>
             </div>
-        </section>
-        <section class="project-grid">
-            <div class="col-one">
-                <h3>Project 2</h3>
-                <p>basic description</p>
-                <a class="project-button">button</a>
-            </div>
-            <div class="col-two">
+        </div>
 
+        <!-- Running Man Event Promotion -->
+        <div class="col-md-5 p-2" id="work-2">
+            <h3>Running Man Event Promotion</h3>
+            <div class="hashtags d-flex justify-content-center row text-center">
+                <p class="p-2">#Graphic Design</p>
+                <p class="p-2">#Illustration</p>
             </div>
-        </section>
-        <section class="project-grid">
-            <div class="col-one">
-                <h3>Project 3</h3>
-                <p>basic description</p>
-                <a class="project-button">button</a>
-            </div>
-            <div class="col-two">
+        </div>
 
+        <!-- LNY Infographic -->
+        <div class="col-md-5 p-2" id="work-3">
+            <h3>Lunar New Year Infographic</h3>
+            <div class="hashtags d-flex justify-content-center row text-center">
+                <p class="p-2">#Graphic Design</p>
+                <p class="p-2">#Illustration</p>
             </div>
-        </section>
+        </div>
+
+        <!-- Witch's Brew -->
+        <div class="col-md-5 p-2" id="work-4">
+            <h3>Witch's Brew</h3>
+            <div class="hashtags d-flex justify-content-center row text-center">
+                <p class="p-2">#Programming</p>
+                <p class="p-2">#Java</p>
+                <p class="p-2">#Illustration</p>
+            </div>
+        </div>
     </section>
 
-    <div class="my-illustrations" id="illustrations">
-        <section class="illust-grid">
+    <section class="illustrations-gallery">
 
-        </section>
-        <section class="illust-grid">
+    </section>
 
-        </section>
-        <section class="illust-grid">
 
-        </section>
-        <a href="/pages/illustrations.html">View More</a>
-    </div>
-
-    <footer class="container-fluid text-center" id="footer">
+    <footer class=" p-3 container-fluid text-center" id="footer">
         <h3>Contact Me at</h3>
         <div>
-            <a>jina_lee_6@sfu.ca</a>
-            <a>jina_lee_6@sfu.ca</a>
+            <a class="p-2 contact-text">jina_lee_6@sfu.ca</a>
+            <a class=" p-2 contact-text">jina_lee_6@sfu.ca</a>
         </div>
         <p>website coded by me</p>
     </footer>

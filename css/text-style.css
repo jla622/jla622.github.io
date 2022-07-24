@@ -1,0 +1,23 @@
+:root{
+    --off-white: #FDFDFC;
+    --my-yellow: #FFE9B1;
+    --my-orange: #FBC471;
+    --light-blue: #B9E3FC;
+    --my-blue: #749DF5;
+    --dark-blue: #355BBA;
+    --my-stroke:#7E4C52;
+}
+
+
+/* FOOTER TEXT*/
+footer h3{
+    color:var(--dark-blue);
+}
+
+.contact-text{
+    color:var(--dark-blue);
+}
+
+footer p{
+    color:var(--dark-blue);
+}

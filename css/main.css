@@ -12,6 +12,18 @@ body{
     background: var(--off-white);
 }
 
+nav{
+    background: var(--light-blue);
+}
+
+.my-work{
+    background-color: var(--light-blue);
+}
+
+#work-1,#work-2, #work-3, #work-4{
+    background-color: var(--off-white);
+}
+
 footer{
     background: var(--light-blue);
 }
