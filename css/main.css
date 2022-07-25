@@ -62,29 +62,22 @@ footer{
     background: var(--light-blue);
 }
 
-
 /* CSS */
 .my-button {
-  appearance: none;
-  background-color: var(--light-blue);
-  border-width: 0;
-  box-sizing: border-box;
+  background-color: var(--dark-blue);
   border-radius: 5rem;
-  color: #000000;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0.1px 0 0 inset;
+  box-sizing: border-box;
+  color: var(--dark-blue);
   cursor: pointer;
   display: inline-block;
-  font-family: 'Lexend', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 1em;
   margin: 0;
-  opacity: 1;
-  outline: 0;
-  padding: 1.5em 2.2em;
+  outline: none;
+  padding: 8px .8em;
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -92,33 +85,18 @@ footer{
   white-space: nowrap;
 }
 
-.my-button:before {
-  animation: opacityFallbackOut .5s step-end forwards;
-  border-radius: 5rem;
-  backface-visibility: hidden;
-  background-color: #EBEBEB;
-  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: translateZ(0);
-  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
-  width: 100%;
+.my-button:hover,
+.my-button:focus {
+  background-color: var(--light-blue-hover);
+  color: #2c5777;
 }
 
-.my-button:hover:before {
-  animation: opacityFallbackIn 0s step-start forwards;
-  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
-  text-decoration: none;
+.my-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 }
 
-.my-button:after {
-  background-color: var(--light-blue);
-}
-
-.my-button span {
-  z-index: 1;
-  position: relative;
+.my-button:active {
+  background-color: var(--my-blue);
+  box-shadow: none;
+  color: #2c5777;
 }
