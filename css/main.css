@@ -7,6 +7,8 @@
     --my-blue: #749DF5;
     --dark-blue: #355BBA;
     --my-stroke:#7E4C52;
+    scroll-behavior:smooth;
+    
 }
 
 body{
@@ -100,3 +102,12 @@ footer{
   box-shadow: none;
   color: #2c5777;
 }
+
+#btn-back-to-top {
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    display: none;
+  }
