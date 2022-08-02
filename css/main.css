@@ -110,4 +110,18 @@ footer{
     bottom: 1.25rem;
     right: 1.25rem;
     display: none;
-  }
+}
+
+.reverse-box {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 36rem) {
+
+	.reverse-box {
+        flex-direction: row-reverse;
+    }
+
+}
+

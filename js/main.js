@@ -23,3 +23,8 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function reverseOrder(){
+  var element = document.getElementById("approach-image-container");
+  element.classList.add("order-first");
+}
