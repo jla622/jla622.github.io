@@ -53,6 +53,8 @@
     </nav>
     <!-- <h1>this is about page</h1> -->
 
+    <div id="top"></div>
+
     <section>
 
         <!-- text intro -->
@@ -80,28 +82,46 @@
                 <div class="col-sm">
                     <h2>My Approach</h2>
                     <p class="text-justify">
-                        As someone who loves problem-solving, I like to imagine design as a powerful tool to enhance our lives and experiences in ways that we could not initially imagine. I aim to achieve this by paying close attention to details, as well as communicating with a diverse array of people for their insight. I believe that everyone has a meaningful perspective that must be considered when developing a design.
+                        As someone who loves problem-solving, I like to imagine design as a powerful tool to enhance our lives and experiences in ways that we could not initially imagine. I aim to achieve this by communicating with a diverse array of people for their insight. I believe that everyone has a meaningful perspective that must be considered when developing a design.
                     </p>
                 </div>
 
                 <!-- image container -->
                 <div class="col-sm" id="approach-image-container">
                     <figure class="figure rounded">
-                        <img src="../img/placeholder-rect.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <img src="../img/about/img-2.png" class="figure-img img-fluid rounded mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
                     </figure>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="section-break"></section>
+
     <section class="container">
-        <h2>Want to Learn More about Me?</h2>
-        <h3 class="container">Here's my resume!</h3>
-        <div class="container">
-      
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1fQlEDDMLLDpVfj1YDXo_OGKbfFn1PJMV/preview#view=FitH" width="50%" height="750"></iframe>
+        <h2 class="text-center">Want to Learn More about Me?</h2>
+        <h3 class="text-center mt-3">Here's my resume!</h3>
+        <div class="d-flex justify-content-center col-md">
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1fQlEDDMLLDpVfj1YDXo_OGKbfFn1PJMV/preview#view=FitH" id="resume-iframe"></iframe>
         </div>
     </section>
+
+    <!-- back to top button -->
+    <button 
+    type="button" 
+    class="btn btn-floating btn-lg rounded-pill btn-back-to-top btn-light"
+    id="btn-back-to-top">
+      <a href="#top">
+        <i class="bi bi-caret-up-fill"></i>
+      </a>
+    </button>
+
+    <footer class=" p-3 container-fluid text-center" id="footer">
+      <p>Copyright &copy; Jina Lee. All rights reserved.</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

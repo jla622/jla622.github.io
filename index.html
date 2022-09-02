@@ -2,14 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>Jina Portfolio</title>
+    <title>Jina's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Jina Lee, jina, lee jina, jla622, Portfolio, portfolio, Design, design, Designer, designer, UX, User Experience, user experience, UI, User Interface, Interaction, interaction, Vancouver, vancouver, student design"/>
+    <meta name="description" content="Jina Lee | Portfolio" />
+    <meta name="author" content="Jina Lee">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/text-style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- DATA AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -50,10 +59,10 @@
                         <a class="nav-link">My Work</a> -->
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">My Projects</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item my-2 border-bottom" href="#">Bye-Nary</a>
+                        <a class="dropdown-item my-2 border-bottom" href="pages/byenary.html">Bye-Nary</a>
                         <a class="dropdown-item by-2 border-bottom" href="#">City Mapper Feature Design</a>
-                        <a class="dropdown-item my-2 border-bottom" href="#">Running Man Event Promotion</a>
-                        <a class="dropdown-item my-2" href="#">Lunar New Year Infographic</a>
+                        <a class="dropdown-item my-2 border-bottom" href="pages/rm-event.html">Running Man Event Promotion</a>
+                        <a class="dropdown-item my-2" href="pages/lny.html">Lunar New Year Infographic</a>
                         
                     </div>
                 </li>
@@ -68,7 +77,7 @@
         </div>
     </nav>
     
-    <section class="jumbotron bg-transparent">
+    <section class="jumbotron bg-transparent" data-aos="fade-up">
         <div class="container container-fluid text-center">
             <h1>Jina Lee</h1>
 
@@ -78,22 +87,27 @@
                 <p class="col-md-3">UI/UX Design</p>
             </div>
         </div>
+
+        
     </section>
 
     <section class="my-work d-flex justify-content-center row mb-5 mx-auto">
 
         <!-- Bye-Nary -->
-        <div class="col-md-5 p-2 card" id="work-4">
-            <figure class="figure rounded">
-                <img src="img/bye-nary_thumbnail.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
-            </figure>
-            <h3 class="text-center">Bye-Nary</h3>
-            <div class="hashtags d-flex justify-content-center row text-center">
-                <p class="p-2">#UI/UX</p>
-                <p class="p-2">#Prototyping</p>
-                <p class="p-2">#Illustration</p>
+        
+            <div class="col-md-5 p-2 card" id="work-4">
+                <a href="pages/byenary.html" class="text-decoration-none">
+                <figure class="figure rounded">
+                    <img src="img/bye-nary_thumbnail.png" class="figure-img img-fluid rounded mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                </figure>
+                <h3 class="text-center text-decoration-none text-reset">Bye-Nary</h3>
+                <div class="hashtags d-flex justify-content-center row text-center">
+                    <p class="p-2">#UI/UX</p>
+                    <p class="p-2">#Prototyping</p>
+                    <p class="p-2">#Illustration</p>
+                </div>
+                </a>
             </div>
-        </div>
 
         <!-- City Mapper Feature Design -->
         <div class="col-md-5 p-2 card hover-shadow" id="work-1">
@@ -109,26 +123,30 @@
 
         <!-- Running Man Event Promotion -->
         <div class="col-md-5 p-2 card" id="work-2">
-            <figure class="figure rounded">
-                <img src="img/RM-Thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            </figure>
-            <h3 class="text-center">Running Man Event Promotion</h3>
-            <div class="hashtags d-flex justify-content-center row text-center">
-                <p class="p-2">#Graphic Design</p>
-                <p class="p-2">#Illustration</p>
-            </div>
+            <a href="pages/rm-event.html" class="text-decoration-none">
+                <figure class="figure rounded">
+                    <img src="img/RM-Thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                </figure>
+                <h3 class="text-center">Running Man Event Promotion</h3>
+                <div class="hashtags d-flex justify-content-center row text-center">
+                    <p class="p-2">#Graphic Design</p>
+                    <p class="p-2">#Illustration</p>
+                </div>
+            </a>
         </div>
 
         <!-- LNY Infographic -->
         <div class="col-md-5 p-2 card" id="work-3">
-            <figure class="figure rounded">
-                <img src="img/LNY-Thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            </figure>
-            <h3 class="text-center">Lunar New Year Infographic</h3>
-            <div class="hashtags d-flex justify-content-center row text-center">
-                <p class="p-2">#Graphic Design</p>
-                <p class="p-2">#Illustration</p>
-            </div>
+            <a href="pages/lny.html" class="text-decoration-none">
+                <figure class="figure rounded">
+                    <img src="img/LNY-Thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                </figure>
+                <h3 class="text-center">Lunar New Year Infographic</h3>
+                <div class="hashtags d-flex justify-content-center row text-center">
+                    <p class="p-2">#Graphic Design</p>
+                    <p class="p-2">#Illustration</p>
+                </div>
+            </a>
         </div>
 
     </section>
@@ -139,7 +157,7 @@
         </div>
 
         <!-- CAROUSEL -->
-        <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide d-flex justify-content-center" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -148,17 +166,17 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <figure class="figure rounded">
-                    <img src="img/placeholder-rect.png" class="center figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                    <img src="img/illustrations/commission-dog.png" class="center figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
                 </figure>
               </div>
               <div class="carousel-item">
                 <figure class="figure rounded">
-                    <img src="img/placeholder-rect.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                    <img src="img/illustrations/commission-mask.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
                 </figure>
               </div>
               <div class="carousel-item">
                 <figure class="figure rounded">
-                    <img src="img/placeholder-rect.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                    <img src="img/illustrations/kstorm-clubs-day.png" class="figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
                 </figure>
               </div>
             </div>
@@ -166,7 +184,7 @@
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next carousel-dark" href="#carouselExampleIndicators" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -178,27 +196,38 @@
           </div> -->
     </section>
 
+    <section id="get-in-touch" data-aos="fade-up">
+        <figure class="text-center">
+            <img src="img/get-in-touch.png" class="figure-img img-fluid mx-auto" alt="A stylized illustration of a miniature girl standing next to an envelope while holding an enlarged pen." width="500">
+        </figure>
+        <h2 class="text-center">Let's get in touch!</h2>
+        <a href="mailto:jina_lee_6@sfu.ca?subject=Hi!%20I'm%20here%20from%20your%20portfolio%20site." class="text-decoration-none">
+            <p class="text-center">jina_lee_6@sfu.ca</p>
+        </a>
+    </section>
+
+   
+
 
     <footer class=" p-3 container-fluid text-center" id="footer">
-        <h3>Contact Me at</h3>
-        <div>
-            <a class=" p-2 contact-text">jina_lee_6@sfu.ca</a>
-        </div>
-        <p>website coded by me</p>
-    </footer>
+        <p>Copyright &copy; Jina Lee. All rights reserved.</p>
+      </footer>
 
     <!-- back to top button -->
-    <button
-        type="button"
-        class="btn btn-floating btn-lg rounded-pill"
-        id="btn-back-to-top"
-        >
-        Back to Top
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-          </svg>
+    <button 
+    type="button" 
+    class="btn btn-floating btn-lg rounded-pill btn-back-to-top btn-light"
+    id="btn-back-to-top">
+      <a href="#top">
+        <i class="bi bi-caret-up-fill"></i>
+      </a>
     </button>
 
+
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({});
+    </script>
 </body>
 </html>
