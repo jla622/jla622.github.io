@@ -122,29 +122,33 @@
     </section>
 
     <section class="container my-3">
-      <h2>Development</h2>
+      <h2 class="para">Development</h2>
 
-      <h3>Understanding our Domain</h3>
-      <p class="para">
-         We conducted interviews—both online and in person—with several individuals who identify as part of the LGBTQIA+ community. In our first round of interviews, we interviewed the following people:
-      </p>
+      <div class="spacing">
+        <h3 class="para">Understanding our Domain</h3>
+        <p class="para">
+          We conducted interviews—both online and in person—with several individuals who identify as part of the LGBTQIA+ community. In our first round of interviews, we interviewed the following people:
+        </p>
 
-      <ul class="list-unstyled para">
-        <li> <strong>3</strong> bisexual individuals</li>
-        <li> <strong>2</strong> gay men</li>
-        <li> <strong>1</strong> trans femme</li>
-        <li> <strong>1</strong> nonbinary individual</li>
-      </ul>
+        <ul class="list-unstyled para">
+          <li> <strong>3</strong> bisexual individuals</li>
+          <li> <strong>2</strong> gay men</li>
+          <li> <strong>1</strong> trans femme</li>
+          <li> <strong>1</strong> nonbinary individual</li>
+        </ul>
+      </div>
 
-      <h3>Pain Points</h3>
-      <p class="para">After we have conducted the interviews, we analyzed some common patterns that have arised in our interviewee's answers.</p>
-      <ul class="list-unstyled para">
-        <li>Many had to unlearn internalized homophobia that was enforced by society.</li>
-        <li>There was very little exposure to the LGBTQIA+ community while growing up.</li>
-        <li>Not much is known local queer history or culture, as most of it is centered around the US.</li>
-      </ul>
+      <div class="spacing">
+        <h3 class="para">Pain Points</h3>
+        <p class="para">After we have conducted the interviews, we analyzed some common patterns that have arised in our interviewee's answers.</p>
+        <ul class="para">
+          <li>Many had to unlearn internalized homophobia that was enforced by society.</li>
+          <li>There was very little exposure to the LGBTQIA+ community while growing up.</li>
+          <li>Not much is known local queer history or culture, as most of it is centered around the US.</li>
+        </ul>
+      </div>
 
-      <h3>Identifying the User </h3>
+      <h3 class="para">Identifying the User </h3>
       <div id="carouselExampleIndicators" class="carousel carousel-dark slide d-flex justify-content-center" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -155,23 +159,23 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <figure class="figure rounded">
-                <img src="../img/Persona-1.png" class="drop-shadow center figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                <img src="../img/Persona-1.png" class="drop-shadow center figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure."  data-toggle="modal" data-target="#persona-1">
             </figure>
           </div>
           <div class="carousel-item">
             <figure class="figure rounded">
-                <img src="../img/Persona-2.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                <img src="../img/Persona-2.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure." data-toggle="modal" data-target="#persona-2">
             </figure>
             
           </div>
           <div class="carousel-item">
             <figure class="figure rounded">
-                <img src="../img/Persona-3.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                <img src="../img/Persona-3.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure." data-toggle="modal" data-target="#persona-3">
             </figure>
           </div>
           <div class="carousel-item">
             <figure class="figure rounded">
-                <img src="../img/Persona-4.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure.">
+                <img src="../img/Persona-4.png" class="drop-shadow figure-img img-fluid rounded img-thumbnail mx-auto" alt="A generic square placeholder image with rounded corners in a figure." data-toggle="modal" data-target="#persona-4">
             </figure>
           </div>
         </div>
@@ -192,11 +196,90 @@
       
     </section>
 
+    <!-- MODAL IMAGES -->
+    <section>
+      <div class="modal fade" id="persona-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <img src="../img/Persona-1.png" class="figure-img img-fluid rounded" alt="An photo of the poster being displayed at the school campus." id="lny-display-modal">
+            </div>
+            <p class="text-center font-italic">Ryan, the inquisitive individual</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="persona-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <img src="../img/Persona-2.png" class="figure-img img-fluid rounded" alt="An photo of the poster being displayed at the school campus." id="lny-display-modal">
+            </div>
+            <p class="text-center font-italic">Joseph, the supportive individual</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="persona-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <img src="../img/Persona-3.png" class="figure-img img-fluid rounded" alt="An photo of the poster being displayed at the school campus." id="lny-display-modal">
+            </div>
+            <p class="text-center font-italic">Emma, the troubled individual</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="persona-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+                <img src="../img/Persona-4.png" class="figure-img img-fluid rounded" alt="An photo of the poster being displayed at the school campus." id="lny-display-modal">
+            </div>
+            <p class="text-center font-italic">Cody, the reflective individual</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="para-section">
       <div class="container">
-        <h2>Ideation</h2>
+        <h2 class="para">Ideation</h2>
         
-        <h3>Initial Wireframes</h3>
+        <h3 class="para">Initial Wireframes</h3>
         <p class="para">In order to have a visual understanding of our app's interactions, our team designed a low-fidelity wireflow. This included key interactions such as the onboarding process, the main features within the app, as well as avatar customization.</p>
         
         <div class="pics">
@@ -217,21 +300,21 @@
       </div>
     </section>
 
-    <section class="container">
-      <h2>Final Prototype</h2>
+    <section class="container para-section spacing">
+      <h2 class="para">Final Prototype</h2>
       <p class="para">
         After multiple iterations with our app development, we created an app prototype that teaches users about the local LGBTQIA+ community in Vancouver, as well as an educational feature that teaches users queer terms and vocabulary. We implemented gamification features in order to make the experience more positive and reassuring, such as adding rewards to the end of each module, such as an accessory. By adding rewards, the user is incentivized to seek out the features within the app.
       </p>
     </section>
 
     <section class="container para-section">
-      <h2>Challenges</h2>
+      <h2 class="para">Challenges</h2>
       <p class="para">We had two main challenges throughout our entire design process: how do we create a positive learning experience, and how do we create an app designed for LGBTQIA+ users, without assumptions or biases?</p>
       <p class="para">To avoid reinforcing any stereotypes about the community, we consulted linguistic experts and LGBTQIA individuals throughout the entire process, from the first steps of research to the final presentation stage. </p>
     </section>
 
     <section class="container">
-      <h2>Reflection</h2>
+      <h2 class="para">Reflection</h2>
       <p class="para">As a student designer, this was one of the biggest interaction design projects that I have led. Not only was I the one managing the entire team to ensure a balanced team dynamic, but I also had to be heavily involved every aspect of designing and prototyping our application.</p>
       <p class="para">Despite the challenges involving team leadership and management, the project was an overall success; we received keen interest from industry professionals who reviewed our app, as well as LGBTQIA+ individuals who wanted to see how the potential app might personally benefit them.</p>
     </section>
