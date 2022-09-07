@@ -30,7 +30,7 @@
 <body>
 
    <!-- NAVBAR -->
-   <nav class="container-fluid navbar navbar-expand-md navbar-light">
+   <nav class="container-fluid navbar navbar-expand-md navbar-light" id="myNavbar">
 
         <div>
             <a class="navbar-brand" href="#">JL</a>
@@ -198,11 +198,24 @@
     </button>
 
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({});
     </script>
-    
+
+    <script>
+       
+       window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myNavbar").style.top = "0";
+          } else {
+            document.getElementById("myNavbar").style.top = "-500px";
+          }
+        }
+        
+    </script>
 </body>
 </html>

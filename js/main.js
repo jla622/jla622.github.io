@@ -2,6 +2,7 @@
 let mybutton = document.getElementById("btn-back-to-top");
 let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
+let navbar = document.getElementById('myNavbar');
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -9,13 +10,12 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
+  if (document.body.scrollTop > 20 ||document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
+    document.navbar.style.top = "0";
   } else {
     mybutton.style.display = "none";
+    document.navbar.style.top = "-500px";
   }
 }
 // When the user clicks on the button, scroll to the top of the document
