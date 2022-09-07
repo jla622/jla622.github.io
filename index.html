@@ -29,8 +29,8 @@
 
 <body>
 
-    <!-- NAVBAR --> 
-    <nav class="container-fluid navbar navbar-expand-md navbar-light">
+   <!-- NAVBAR -->
+   <nav class="container-fluid navbar navbar-expand-md navbar-light">
 
         <div>
             <a class="navbar-brand" href="#">JL</a>
@@ -47,27 +47,33 @@
         </button>
 
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
-          <ul class="navbar-nav navbar-right">
+            <ul class="navbar-nav navbar-right">
             <li class="nav-item rounded-pill">
-                <a class='nav-link' href="index.html">Home</a>
+                <a class='nav-link' href="#">Home</a>
             </li>
             <li class="nav-item rounded-pill">
-              <a class="nav-link" href="pages/about.html">About</a>
+                <a class="nav-link" href="pages/about.html">About</a>
             </li>
             <div class="dropdown show">
+
                 <li class="nav-item rounded-pill">
-                    <!-- dropdown-toggle"
-                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a class="nav-link">My Work</a> -->
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">My Projects</a>
+
+                    <a 
+                    class="nav-link dropdown-toggle" 
+                    href="#" 
+                    id="dropdownMenuLink" 
+                    role="button" data-toggle="dropdown" 
+                    aria-expanded="false"> My Projects</a>
+                    
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item my-2 border-bottom" href="pages/byenary.html">Bye-Nary</a>
-                        <a class="dropdown-item by-2 border-bottom" href="#">City Mapper Feature Design</a>
+                        <a class="dropdown-item by-2 border-bottom" href="pages/city-mapper.html">City Mapper Feature Design</a>
                         <a class="dropdown-item my-2 border-bottom" href="pages/rm-event.html">Running Man Event Promotion</a>
                         <a class="dropdown-item my-2" href="pages/lny.html">Lunar New Year Infographic</a>
-                        
                     </div>
+
                 </li>
+
             </div>
 
             <!-- <li class="nav-item rounded-pill">
@@ -75,14 +81,24 @@
             </li> -->
 
             <li class="nav-item rounded-pill">
-              <a class="nav-link" href="#footer">Contact Me</a>
+                <a class="nav-link" href="#footer">Contact Me</a>
             </li>
-          </ul>
+            </ul>
         </div>
     </nav>
+
+    <div id="top"></div>
+
+    <img 
+    src="img/hero-image.svg" 
+    alt="tropical illustration"
+    class=" hero-image mx-auto">
     
     <section class="jumbotron bg-transparent" data-aos="fade-up">
         <div class="container container-fluid text-center">
+
+            
+
             <h1>Jina Lee</h1>
 
             <div class="d-flex justify-content-center row text-center">
@@ -115,14 +131,16 @@
 
         <!-- City Mapper Feature Design -->
         <div class="col-md-5 p-2 card hover-shadow" id="work-1">
-            <figure class="figure rounded">
-                <img src="img/Citymapper-thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            </figure>
-            <h3 class="text-center">City Mapper Feature Design</h3>
-            <div class="hashtags d-flex justify-content-center row text-center">
-                <p class="p-2">#UI/UX</p>
-                <p class="p-2">#Prototyping</p>
-            </div>
+            <a href="pages/city-mapper.html" class="text-decoration-none">
+                <figure class="figure rounded">
+                    <img src="img/Citymapper-thumbnail.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                </figure>
+                <h3 class="text-center">City Mapper Feature Design</h3>
+                <div class="hashtags d-flex justify-content-center row text-center">
+                    <p class="p-2">#UI/UX</p>
+                    <p class="p-2">#Prototyping</p>
+                </div>
+            </a>
         </div>
 
         <!-- Running Man Event Promotion -->

@@ -236,3 +236,23 @@ footer p{
 .section-break{
     margin:30vh;
 }
+
+.hero-image{
+    position:relative;
+    /* width:100vw;
+    height:100vh; */
+    width:100vw;
+    height:600px;
+    object-fit: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+@media (max-width:50rem){
+    .prototype{
+        width: 70vw;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
