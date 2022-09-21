@@ -23,7 +23,7 @@ a{
 }
 
 nav{
-    background: var(--light-blue);
+    backdrop-filter: blur(200px);
 }
 
 .nav-item:hover{
